@@ -1,0 +1,38 @@
+2015-11-26 21:10:51,013 [Worker-0] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' /Users/patriciajimenezaguirre/Documents/Trabajo/USC - ISI/VERTIGO/git-repository/HelloWorld/pom.xml
+2015-11-26 21:10:54,342 [Worker-0] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: HelloWorld:HelloWorld:0.0.1-SNAPSHOT @ /Users/patriciajimenezaguirre/Documents/Trabajo/USC - ISI/VERTIGO/git-repository/HelloWorld/pom.xml.
+2015-11-26 21:10:54,892 [Worker-1] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: HelloWorld:HelloWorld:0.0.1-SNAPSHOT @ /Users/patriciajimenezaguirre/Documents/Trabajo/USC - ISI/VERTIGO/git-repository/HelloWorld/pom.xml.
+2015-11-26 21:10:54,904 [Worker-0] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /HelloWorld/src/main/java
+2015-11-26 21:10:54,908 [Worker-0] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /HelloWorld/src/test/java
+2015-11-26 21:10:55,093 [Worker-0] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 4 sec
+2015-11-26 21:10:57,381 [Worker-9] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: HelloWorld:HelloWorld:0.0.1-SNAPSHOT @ /Users/patriciajimenezaguirre/Documents/Trabajo/USC - ISI/VERTIGO/git-repository/HelloWorld/pom.xml.
+2015-11-26 21:10:57,466 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-26 21:10:57,466 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/patriciajimenezaguirre/Documents/Trabajo/USC - ISI/VERTIGO/git-repository/HelloWorld/src/main/resources
+2015-11-26 21:10:57,468 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-26 21:10:57,468 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/patriciajimenezaguirre/Documents/Trabajo/USC - ISI/VERTIGO/git-repository/HelloWorld/src/test/resources
+2015-11-26 21:11:04,139 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-26 21:11:04,140 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/patriciajimenezaguirre/Documents/Trabajo/USC - ISI/VERTIGO/git-repository/HelloWorld/src/main/resources
+2015-11-26 21:11:04,142 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-26 21:11:04,142 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/patriciajimenezaguirre/Documents/Trabajo/USC - ISI/VERTIGO/git-repository/HelloWorld/src/test/resources
+2015-11-26 21:11:38,357 [Worker-0] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: HolaMundo:HolaMundo:0.0.1-SNAPSHOT @ /Users/patriciajimenezaguirre/Documents/Trabajo/USC - ISI/VERTIGO/git-repository/HolaMundo/pom.xml.
+2015-11-26 21:11:38,444 [Worker-0] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /HolaMundo/src/main/java
+2015-11-26 21:11:38,444 [Worker-0] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /HolaMundo/src/main/resources
+2015-11-26 21:11:38,445 [Worker-0] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /HolaMundo/src/test/java
+2015-11-26 21:11:38,445 [Worker-0] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /HolaMundo/src/test/resources
+2015-11-26 21:11:39,200 [Worker-3] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: HolaMundo:HolaMundo:0.0.1-SNAPSHOT @ /Users/patriciajimenezaguirre/Documents/Trabajo/USC - ISI/VERTIGO/git-repository/HolaMundo/pom.xml.
+2015-11-26 21:11:39,469 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-11-26 21:11:40,390 [Worker-1] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: HolaMundo:HolaMundo:0.0.1-SNAPSHOT @ /Users/patriciajimenezaguirre/Documents/Trabajo/USC - ISI/VERTIGO/git-repository/HolaMundo/pom.xml.
+2015-11-26 21:11:40,449 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-11-26 21:11:40,453 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-11-26 21:11:40,453 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-11-26 21:11:41,470 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-11-26 21:11:41,474 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-11-26 21:11:41,476 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-11-26 21:11:41,526 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-11-26 21:12:06,168 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-26 21:12:06,168 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/patriciajimenezaguirre/Documents/Trabajo/USC - ISI/VERTIGO/git-repository/HelloWorld/src/main/resources
+2015-11-26 21:12:06,170 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-26 21:12:06,170 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/patriciajimenezaguirre/Documents/Trabajo/USC - ISI/VERTIGO/git-repository/HelloWorld/src/test/resources
+2015-11-26 21:13:29,586 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-26 21:13:29,586 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/patriciajimenezaguirre/Documents/Trabajo/USC - ISI/VERTIGO/git-repository/HelloWorld/src/main/resources
+2015-11-26 21:13:29,587 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-26 21:13:29,588 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/patriciajimenezaguirre/Documents/Trabajo/USC - ISI/VERTIGO/git-repository/HelloWorld/src/test/resources
