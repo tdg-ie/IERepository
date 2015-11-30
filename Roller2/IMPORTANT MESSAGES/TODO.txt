@@ -1,0 +1,2 @@
+- tienes que ensayar con la técnica para balancear los datasets basada en quitar los negativos más lejanos a los positivos; 
+- tienes que estudiar el tema de los predicados 1:* (children, ancestor, etc); 

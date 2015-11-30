@@ -1,0 +1,84 @@
+Be aware that TangoEngineTest has to be executed before generating the jar library.
+The Collective Strength has been modified. Previous formulae was not right.
+
+Tango v1.3
+----------
+We have change the name of the output files and now we use absolute path to indicate the path where we wish to 
+store the output files (traces).
+
+Tango v1.4
+----------
+We have implemented some operations to enhance the performance:
+- GetOrigBinding (BindingsOperations class)
+- match and enlargingBinding (SwiProlog class)
+- analysePositiveExamples and analyseNegativeExamples (CoverageAnalyst class) --> newFound = possibleDuplicateVars.isEmpty() ? bop.nMatches(currentBinding, literal) : (newNegBindings = bop.match(currentBinding, literal)).size();
+- isRecursiveLiteral (LiteralsFactoryV6 class) and those methods which try to know if the literal can cause infinite recursion
+- orderedConstants class. We have changed the implementation. Now it takes into account a different order when the type of the data is numeric
+
+Tango v1.5
+----------
+
+- The system will not be recovered by savedPath. The only possibility to perform backtracking is by means of savePoints.
+  This operation was made to save space in Memory. The classes affected by the change were TangoEngineClass and Branch&Bound class
+
+- We remove all useless branches in the tree when it is clear that they are not going to be used (or recovered as backtracking points).
+- updateDeterminateMethod in TangoEngine class has been modified to make it a bit faster
+
+Tango v1.6
+-----------
+
+- We have change the way to access/write the output data to the output file. We try to avoid a lot of access to the disc. 
+
+Tango v1.7
+-----------
+
+- We have change the selectNode Method and divide it into several methods and improved the source code.  
+- We have implemented the test phase which is executed immediately after the training phase (Class TestEvaluation has been added).
+
+Tango v1.8
+-----------
+
+- An error in the postprocessing phase has been fixed. If there was a literal as X1 = "[]" and another one as X2 = X1, the second one disappeared 
+  because X1 = "[]" is more specific than X1 = X2, however, X2 wasn't assigned to "[]" with the errors that it entails.
+- We have added a way to reverse the order amongst the variables in the predicates because at first, we do not if the order should be "<" or ">". In this 
+  way, the first order that allows us to add target predicates to the body of the rule, will be the order for the rest of the induction process
+- We have repaired some problems calculating the bits of the rule. We got an error in contact_lenses test. 
+
+Tango v1.9
+-----------
+
+- We have change the way in which the Literals Factory generates the recursive literals. Now, until a recursive literal is added to the body of 
+  the rule, the order between variables is not established. Furthermore, we can change the sign of the inequality when necessary, since we do not 
+  if the inequality is < or > so we adapt it when we use the first recursive literal.
+
+- The evaluation measures file is saved in the same fold that the output file of Tango (trace).  
+
+- All the queries that were not closed have been closed now. 
+
+- Scoring functions such as originalInformationGain and informationGainModified have been added.
+
+Tango v1.10
+-----------
+
+- We should fix the errors when restoring best saved point. It does work well now
+- We have changed the way to add several determinate literals at a time
+
+		Tango v1.10.1
+		-------------
+		
+		- We are trying to speed up some process and avoid jvm crashes because of prolog queries. So this version of Tango has been modify
+		to acomplish this goal. Classes that have undergone some kind of change have been PrologOperations.java and SwiProlog.java
+		(We avoid to call allSolutions and close all the queries executed).
+
+		Tango v1.10.2
+		-------------
+		
+		- The package features has been removed because it was empty. Maybe we were thinking of adding some functionality 
+		  but it is not implemented yet. Now we have moved EvaluationMeasures.java from package output (folder postprocess) to 
+		  folder evaluation inside the package measures. It is just a refactoring.
+		- We also have modified the EvaluationMeasures java file to avoid dividing by 0.
+		
+		- modifications on the coverage analyser has been made. Now it includes a simple analyser without any kind of prunning, 
+		  an alphaBetaAnalyser, a MDL analyser and a combination of the two previous ones.
+		  
+		- We have include a new heuristic to sort the predicates according to an input file in which the order has been set.

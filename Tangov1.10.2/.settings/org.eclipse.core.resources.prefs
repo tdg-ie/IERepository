@@ -1,0 +1,8 @@
+#Tue Mar 31 01:10:40 CEST 2015
+eclipse.preferences.version=1
+encoding//src/branch_and_bound/engine/FoilEngine.java=UTF-8
+encoding//src/knowledgeBase/PrologOperations.java=UTF-8
+encoding//src/knowledgeBase/PrologUtilities.java=UTF-8
+encoding//src/literalFactory/LiteralsFactoryV6.java=UTF-8
+encoding//src/main/FoilEngineTest.java=UTF-8
+encoding//src/main/FoilEngineWithoutPostProcessingTest.java=UTF-8
